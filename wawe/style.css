@@ -18,7 +18,7 @@ body {
     line-height: normal;
     letter-spacing: 0.6px;
 
-    
+    border-bottom: 1px solid #00b2a0;
 }
 
 .wawe {
@@ -28,9 +28,7 @@ body {
     background-size: cover;
     background-position:center 0;
 }
-.link:hover {
-    border-bottom: 1px solid #00b2a0;
-}
+
 
 nav {
     display: flex;
@@ -59,7 +57,55 @@ nav {
 }
 
 @media (max-with: 700px) {
-    nav {
-        flex-wrap: wrap;
+    
+}
+
+@media (max-with: 700px) {
+    .wrap {
+        flex-direction: column;
     }
+}
+
+
+.big-title {
+    color: #000000;
+    font-family: Ralevay;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+.box {
+    /* border: 5px solid black */
+}
+
+.box p {
+    margin-bottom: 20px;
+
+    color: #242121;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 18px; /* 128.571% */
+letter-spacing: 0.6px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.title {
+    text-align: center;
+    margin: 300px auto;
+}
+.wrap {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
 }
